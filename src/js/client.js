@@ -27,22 +27,3 @@ render(
         </Provider>,
     document.getElementById("app")
 );
-
-// console.log(store.getState());
-//
-// const unsubscribe = store.subscribe(() => {
-//     console.log(store.getState());
-// });
-//
-// store.dispatch(addTodo("Learn about actions"));
-// store.dispatch(addTodo("Learn about store"));
-// store.dispatch(addTodo("Learn about reducers"));
-// store.dispatch(toggleTodo(0));
-// store.dispatch(toggleTodo(1));
-// store.dispatch(setVisibilityFilter("SHOW_ALL"));
-//
-// unsubscribe();
-//
-// const App = document.getElementById("app");
-// ReactDOM.render(
-// );
