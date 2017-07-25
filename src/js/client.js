@@ -22,7 +22,7 @@ render(
         <Provider store={store}>
             <Router history={history}>
                 <Route path="/(:filter)" component={TodoApp} />
-                <Route path="hello" component={Hello}/>
+                <Route path="/hello" component={Hello}/>
             </Router>
         </Provider>,
     document.getElementById("app")
